@@ -1,10 +1,10 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: podinfo
+  name: xx
   namespace: apps
 spec:
-  releaseName: podinfo
+  releaseName: xx
   chart:
     spec:
       chart: podinfo
